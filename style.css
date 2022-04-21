@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, helvetica, sans-serif;
+  box-sizing: border-box;
+}
+p {
+  font-size: 15px;
+  line-height: 25px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #011f31;
+  color: white;
+  padding-top: 30px;
+  min-height: 100px;
+  border-bottom: orangered 3px solid;
+}
+header ul {
+  float: right;
+  padding-top: 10px;
+}
+
+header li {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline;
+  padding: 0 22px 0 22px;
+}
+header a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.logo {
+  text-transform: capitalize;
+  float: left;
+}
+span {
+  color: orangered;
+}
+
+/* Showcase */
+
+#showcase {
+  min-height: 40vh;
+  background: url("./banner-3.jpg") center/cover no-repeat;
+  text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lead {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* main section */
+#main-col {
+  min-height: 40vh;
+  float: left;
+  width: 65%;
+  padding: 30px 0;
+}
+
+#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+.dark {
+  padding: 15px;
+  background: #011f31;
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+/* footer */
+footer {
+  padding: 20px;
+  margin-top: 1px;
+  color: #ffffff;
+  background-color: orangered;
+  text-align: center;
+}
+
+/* login page */
+#form {
+  min-height: 80vh;
+  /* min-width: 100vw; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  /* height: 100%; */
+  width: 25%;
+  padding: 50px;
+  background-color: #011f31;
+  border-radius: 5px;
+}
+.login-text {
+  color: white;
+  text-align: center;
+  padding-bottom: 20px;
+}
+label {
+  color: white;
+  font-size: 10px;
+}
+input {
+  padding: 10px 20px;
+  border-radius: 6px;
+}
+.usd {
+  margin-bottom: 15px;
+}
+.pwd {
+  margin-bottom: 15px;
+}
+.btn {
+  background-color: transparent;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid orangered;
+}
+.btn:hover {
+  background-color: orangered;
+}
+.btn-form {
+  background-color: orangered;
+  padding: 15px 12px;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+}
+.create-acc {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 12px;
+}
+.forgt {
+  color: white;
+  font-size: 12px;
+}
